@@ -43,7 +43,8 @@ jobs:
           plugin_projects: yes
           plugin_projects_limit: 4
           plugin_repositories: 100
-          plugin_repositories_affiliations: owner
+          plugin_repositories_affiliations: owner, collaborator
+          plugin_repositories_skipped: AjaniBilby/ajanibilby
           plugin_repositories_batch: 100
 
           plugin_lines: yes
